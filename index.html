@@ -24,7 +24,7 @@
       </h1>
     </header>
     <main>
-      <!-- DPR Device Pixel Ratio de 3 -->
+      <!-- DPR Device Pixel Ratio de 3
       <img
         srcset="
           media/BannerSoloHistorias.opti.webp,
@@ -34,7 +34,22 @@
         "
         src="media/BannerSoloHistorias.png"
         alt="Imagen del encabezado: cuadro Encuentro de M.A. Soto"
-      />
+      /> -->
+      <!-- Uso de la etiqueta picture -->
+      <picture>
+        <source
+          srcset="
+            media/BannerSoloHistorias.opti.webp,
+            media/BannerSoloHistorias.png,
+            media/BannerSoloHistorias.opti.mobile.webp 3x,
+            media/BannerSoloHistorias.opti.mobile.png  3x
+          "
+        />
+        <img
+          src="media/BannerSoloHistorias.png"
+          alt="Imagen del encabezado: cuadro Encuentro de M.A. Soto"
+        />
+      </picture>
       <article class="">
         <section>
           <p>

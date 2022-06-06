@@ -1,33 +1,72 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Quién es Antonio Soto Patiño</title>
   </head>
   <body>
     <header>
-      <nav>
-
-      </nav>
+      <nav></nav>
       <h1 id="titulosobre" class="titulo">Sobre mí</h1>
     </header>
     <main>
+      <!-- Foto optimizada para DPR de 3 con srcset
+        <img
+          srcset="media/Antonio2021.jpg, media/Antonio2021.opti.mobile.jpg 3x"
+          src="media/Antonio2021.jpg"
+          alt="Foto de Antonio Soto Patiño en octubre de 2021"
+        />   -->
+      <!-- Uso de la etiqueta picture -->
+      <picture>
+        <source
+          srcset="media/Antonio2021.jpg, media/Antonio2021.opti.mobile.jpg 3x"
+        />
+        <img
+          src="media/Antonio2021.jpg"
+          alt="Foto de Antonio Soto Patiño en octubre de 2021"
+        />
+      </picture>
       <article class="">
         <section>
-            <img width="300" src="media/Antonio2021.jpg" alt="Antonio en Málaga en 2021"/>
-          <hr/>
+          <img
+            width="300"
+            src="media/Antonio2021.jpg"
+            alt="Antonio en Málaga en 2021"
+          />
+          <hr />
           <a href="https://www.youtube.com/channel/UCrMb36Ij8ikFQynryX4Tb9A">
-            Canal de YouTube donde subo mis grabaciones de creación de relatos, juegos narrativos en solitario y horas de concentración y estudio
+            Canal de YouTube donde subo mis grabaciones de creación de relatos,
+            juegos narrativos en solitario y horas de concentración y estudio
           </a>
-          <hr/>
-          <video width="600" poster="media/BannerSoloHistorias.png" loop autoplay controls src="media/Superluna.mp4" controls>
-            Superluna - Vídeo introductorio de Antonio hecho con Blender a partir de una fotografía mía, y escrito y narrado por mí (versión corta sin sonido)
+          <hr />
+          <video
+            width="600"
+            poster="media/BannerSoloHistorias.png"
+            loop
+            autoplay
+            controls
+            src="media/Superluna.mp4"
+            controls
+          >
+            Superluna - Vídeo introductorio de Antonio hecho con Blender a
+            partir de una fotografía mía, y escrito y narrado por mí (versión
+            corta sin sonido)
           </video>
-          <hr/>
+          <hr />
           <h2>Ejemplo de audiorrelato</h2>
-          <p>La litera superior (cuento de terror gótico de 1894), de Francis Marion Crawford, narrado por mí</p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/R4_JcOqpIDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>
+            La litera superior (cuento de terror gótico de 1894), de Francis
+            Marion Crawford, narrado por mí
+          </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/R4_JcOqpIDk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </section>
         <section>
           <a href="index.html"><h1>Página principal</h1></a>
@@ -36,7 +75,10 @@
     </main>
     <footer>
       <p><a href="#titulosobre">Ir al comienzo</a></p>
-      <p>Contacta con mi <a href="mailto:relatosparaescuchar@gmail.com">correo</a></p>
+      <p>
+        Contacta con mi
+        <a href="mailto:relatosparaescuchar@gmail.com">correo</a>
+      </p>
       <p>Creado en 2022 por Antonio Soto Patiño</p>
     </footer>
   </body>
